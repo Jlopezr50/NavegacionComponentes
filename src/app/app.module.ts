@@ -3,13 +3,14 @@ import { NativeScriptModule } from '@nativescript/angular'
 
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
-import { ItemsComponent } from './item/items.component'
-import { ItemDetailComponent } from './item/item-detail.component'
+import {paginaUnoComponent} from './PrimerComponente/pagina-uno.component'
+import {paginaDosComponent} from './SegundoComponente/pagina-dos.component'
+
 
 @NgModule({
   bootstrap: [AppComponent],
   imports: [NativeScriptModule, AppRoutingModule],
-  declarations: [AppComponent, ItemsComponent, ItemDetailComponent],
+  declarations: [AppComponent, paginaUnoComponent, paginaDosComponent],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA],
 })
